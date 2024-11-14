@@ -1,39 +1,38 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <header id="header" className='mx-2'>
-            {/* Navbar */}
+
+            {/* Navbar Start */}
             <nav
                 className="navbar navbar-expand"
             >
                 <div className="container header">
-                    {/* Navbar Brand*/}
-                    <a className="navbar-brand" href="#">
-                        {/* <img
-                    className="navbar-brand-regular"
-                    src="assets/img/logo/logo-white2.png"
-                    alt="brand-logo"
-                /> */}
+
+                    {/* Header Logo */}
+                    <Link className="navbar-brand" to="/">
+
                         <img
                             className="navbar-brand-sticky"
                             src="assets/img/logo/logo2.png"
                             alt="sticky brand-logo"
                         />
-                    </a>
+                    </Link>
                     <div className="ml-auto" />
-                    {/* Navbar */}
+
                     <ul className="navbar-nav navbar-menue">
                         <li className="nav-item">
-                            <a href="index.html" className="nav-link">
+                            <Link to="/" className="nav-link">
                                 HOME
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a href="about.html" className="nav-link">
+                            <Link to="/about" className="nav-link">
                                 ABOUT US
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="#">
@@ -201,7 +200,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-           
+
         </header>
     );
 };
