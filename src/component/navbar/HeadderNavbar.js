@@ -136,9 +136,9 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a href="career.html" className="nav-link">
+                            <Link to="/career" className="nav-link">
                                 CAREER
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     {/* Navbar Icons */}
@@ -156,7 +156,6 @@ const Navbar = () => {
                         <li className="nav-item social">
                             <a
                                 href="https://www.facebook.com/saustralasia/"
-                                target="_blank"
                                 className="nav-link"
                             >
                                 <i className="fab fa-facebook-f" />
@@ -165,7 +164,6 @@ const Navbar = () => {
                         <li className="nav-item social">
                             <a
                                 href="https://twitter.com/s_australasia"
-                                target="_blank"
                                 className="nav-link"
                             >
                                 <i className="fab fa-twitter" />
@@ -188,13 +186,13 @@ const Navbar = () => {
                     {/* Navbar Action Button */}
                     <ul className="navbar-nav action navbar-action">
                         <li className="nav-item ml-3">
-                            <a
-                                href="contact.html"
+                             <Link
+                                to="/contact"
                                 className="btn ml-lg-auto btn-bordered-white"
                             >
                                 <i className="fas fa-paper-plane contact-icon mr-md-2" />
                                 Contact Us
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

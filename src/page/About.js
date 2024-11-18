@@ -236,6 +236,7 @@ const About = () => {
                     </div>
                 </section>
                 {/* ***** Promo Area End ***** */}
+                
                 <Footer />
                 <Modal />
             </div>
