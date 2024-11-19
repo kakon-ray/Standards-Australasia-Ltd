@@ -18,7 +18,7 @@ const Career = () => {
             <div className="main overflow-hidden">
                 <HeadderNavbar />
 
-                <PageBanner title="Career Us" />
+                <PageBanner title="Career" />
 
    
                     {/*====== Contact Area Start ======*/}

@@ -41,9 +41,9 @@ const Navbar = () => {
                             </a>
                             <ul className="dropdown-menu">
                                 <li className="nav-item">
-                                    <a href="hospitality.html" className="nav-link">
+                                    <Link to="/hospitality" className="nav-link">
                                         Hospitality
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <a href="health.html" className="nav-link">

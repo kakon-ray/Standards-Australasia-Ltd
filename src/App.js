@@ -7,6 +7,7 @@ import About from './page/About';
 import $ from "jquery";
 import Contact from './page/Contact';
 import Career from './page/Career';
+import Hospitality from './page/Hospitality';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/hospitality" element={<Hospitality />} />
       </Routes>
     </div>
   );
