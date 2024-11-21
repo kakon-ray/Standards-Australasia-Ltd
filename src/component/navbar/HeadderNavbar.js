@@ -184,11 +184,11 @@ const Navbar = () => {
                         </li>
                     </ul>
                     {/* Navbar Action Button */}
-                    <ul className="navbar-nav action navbar-action">
+                    <ul className="navbar-nav action">
                         <li className="nav-item ml-3">
                              <Link
                                 to="/contact"
-                                className="btn ml-lg-auto btn-bordered-white"
+                                className="contact-button"
                             >
                                 <i className="fas fa-paper-plane contact-icon mr-md-2" />
                                 Contact Us
