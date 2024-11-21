@@ -46,29 +46,29 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="health.html" className="nav-link">
+                                    <Link to="/health" className="nav-link">
                                         Health&nbsp;&amp;&nbsp;Safety
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="Quality.html" className="nav-link">
+                                    <Link to="/quality" className="nav-link">
                                         Quality&nbsp;Management
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="medical.html" className="nav-link">
+                                    <Link to="/medical" className="nav-link">
                                         Medical&nbsp;Equipment&nbsp;Product
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="it.html" className="nav-link">
+                                    <Link to="/itmanagement" className="nav-link">
                                         IT&nbsp;Management
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="garment.html" className="nav-link">
+                                    <Link to="/germent" className="nav-link">
                                         Ready-Made&nbsp;Garment
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
